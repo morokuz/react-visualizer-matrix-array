@@ -1,25 +1,84 @@
+html {
+  width: 100%;
+  height: 100%;
+
+  background: #0F2027;
+  background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);
+  background: linear-gradient(to top, #2C5364, #203A43, #0F2027);
+}
+
 .container {
-  max-width: 30em;
+  width: 90%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
 }
 
-table {
-  margin: auto;
-  padding: 1em;
+.title {
+  color: white;
 }
 
-td {
+.input-size {
+  padding: 0.5em;
+  width: 2em;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.inputMultiplicationChar {
+  color: white;
+}
+
+.matrix-container {
+  margin: 2em;
+  width: 100%;
+}
+
+.matrix-row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.matrix-cell {
+  margin: 1px;
   width: 2em;
   height: 2em;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
+}
+
+.matrix-cell:hover {
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+.array-container {
+  margin: 2em;
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.array-cell {
+  width: 2em;
+  height: 2em;
+  border: 1px solid transparent;
+}
+
+.array-cell:hover {
+  border: 1px solid white;
 }
 
 .off {
-  background-color: cadetblue;
+  background-color: #7cc2d8;
 }
 
 .on {
-  transition-duration: 0.5s;
-  border: 2px solid black;
-  background-color: coral;
+  transition-duration: 0.3s;
+  background-color: #7252a9;
 }
