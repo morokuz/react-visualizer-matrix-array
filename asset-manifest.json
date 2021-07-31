@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-visualizer-matrix-array/static/css/main.2d0cc130.chunk.css",
+    "main.js": "/react-visualizer-matrix-array/static/js/main.680e4f82.chunk.js",
+    "main.js.map": "/react-visualizer-matrix-array/static/js/main.680e4f82.chunk.js.map",
+    "runtime-main.js": "/react-visualizer-matrix-array/static/js/runtime-main.c939bcb2.js",
+    "runtime-main.js.map": "/react-visualizer-matrix-array/static/js/runtime-main.c939bcb2.js.map",
+    "static/js/2.d65e987a.chunk.js": "/react-visualizer-matrix-array/static/js/2.d65e987a.chunk.js",
+    "static/js/2.d65e987a.chunk.js.map": "/react-visualizer-matrix-array/static/js/2.d65e987a.chunk.js.map",
+    "index.html": "/react-visualizer-matrix-array/index.html",
+    "static/css/main.2d0cc130.chunk.css.map": "/react-visualizer-matrix-array/static/css/main.2d0cc130.chunk.css.map",
+    "static/js/2.d65e987a.chunk.js.LICENSE.txt": "/react-visualizer-matrix-array/static/js/2.d65e987a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c939bcb2.js",
+    "static/js/2.d65e987a.chunk.js",
+    "static/css/main.2d0cc130.chunk.css",
+    "static/js/main.680e4f82.chunk.js"
+  ]
+}
